@@ -13,6 +13,7 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Vista.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Practica 1");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
