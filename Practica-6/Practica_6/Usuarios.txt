@@ -1,0 +1,3 @@
+Usuario nombre='Inaki', contrasena='123456', fecha='2010-12-15'
+Usuario nombre='InakiSS', contrasena='123456', fecha='2010-12-15'
+Usuario nombre='InakiSS', contrasena='123456', fecha='2010-12-15'

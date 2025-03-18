@@ -23,7 +23,7 @@ public class Controller implements Initializable {//para implementar el metodo i
     //configuracion del spinner
     @FXML
     TextArea txt_Inf;
-    //condiciones iniciales para nuestros componentes 
+    //condiciones iniciales para nuestros componentes
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
