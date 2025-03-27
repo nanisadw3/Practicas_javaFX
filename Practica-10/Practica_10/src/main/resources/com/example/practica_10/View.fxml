@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="184.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica_10.Controller">
+   <children>
+      <RadioButton fx:id="radio_te" layoutX="101.0" layoutY="30.0" mnemonicParsing="false" text="Te">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radio_cafe" layoutX="174.0" layoutY="30.0" mnemonicParsing="false" text="Cafe">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="74.0" layoutY="77.0" text="Calentar:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_calentar" layoutX="142.0" layoutY="74.0" />
+      <Button fx:id="btn_Preparar" layoutX="142.0" layoutY="110.0" mnemonicParsing="false" onAction="#accionbtn_Preparar" prefHeight="30.0" prefWidth="92.0" text="Preparar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
