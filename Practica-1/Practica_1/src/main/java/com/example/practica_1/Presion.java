@@ -1,4 +1,4 @@
-package com.example.practica_01;
+package com.example.practica_1;
 
 public class Presion {
 

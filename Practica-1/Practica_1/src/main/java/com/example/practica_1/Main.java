@@ -1,4 +1,4 @@
-package com.example.practica_01;
+package com.example.practica_1;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Vista.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
+        Scene scene = new Scene(fxmlLoader.load());  // Aquí estaba mal escrito 'Scense'
         stage.setTitle("Practica 1");
         stage.setResizable(false);
         stage.setScene(scene);

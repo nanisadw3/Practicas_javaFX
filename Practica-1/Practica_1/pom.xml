@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>Practica_01</artifactId>
+    <artifactId>Practica_1</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Practica_01</name>
+    <name>Practica_1</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.practica_01/com.example.practica_01.Main</mainClass>
+                            <mainClass>com.example.practica_1/com.example.practica_1.Main</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

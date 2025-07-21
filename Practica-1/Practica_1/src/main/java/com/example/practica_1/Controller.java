@@ -1,4 +1,4 @@
-package com.example.practica_01;
+package com.example.practica_1;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -22,16 +22,16 @@ public class Controller {
         try {
 
 
-        int saldo = Integer.parseInt(txt_saldo.getText());
-        String cuenta = txt_cuenta.getText();
-        String anualidad = txt_anualidad.getText();
-        String titular = txt_titular.getText();
-        Cuenta c = new Cuenta(cuenta, anualidad, titular, saldo);
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Capturar");
-        alert.setHeaderText("Se capturaron los datos de la cuenta" + cuenta);
-        alert.setContentText("Cuenta " + cuenta + " Saldo " + saldo + " Anualidad " + anualidad + " Titular " + titular);
-        alert.showAndWait();
+            int saldo = Integer.parseInt(txt_saldo.getText());
+            String cuenta = txt_cuenta.getText();
+            String anualidad = txt_anualidad.getText();
+            String titular = txt_titular.getText();
+            Cuenta c = new Cuenta(cuenta, anualidad, titular, saldo);
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Capturar");
+            alert.setHeaderText("Se capturaron los datos de la cuenta" + cuenta);
+            alert.setContentText("Cuenta " + cuenta + " Saldo " + saldo + " Anualidad " + anualidad + " Titular " + titular);
+            alert.showAndWait();
 
         }catch(Exception e) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
