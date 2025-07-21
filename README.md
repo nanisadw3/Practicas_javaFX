@@ -16,7 +16,16 @@ JavaFX ofrece numerosas ventajas para el desarrollo de aplicaciones gráficas en
 
 El repositorio está organizado en directorios numerados, cada uno de ellos correspondiente a una práctica específica en JavaFX:
 
-Cuando termine el repo dare un resumen de cada practica (Son las mismas que las de java(swing) y C#)
+- **Practica-1:** Aplicación multifuncional que incluye gestión de cuentas bancarias, cálculo de velocidad y clasificación de presión arterial.
+- **Practica-2:** Aplicación para la gestión de empleados, permitiendo el registro de datos y la generación de correos electrónicos.
+- **Practica-3:** Aplicación de gestión de almacenes, que permite añadir y buscar artículos por ubicación.
+- **Practica-4:** Aplicación para la gestión de estudiantes, que permite añadir nuevos alumnos y mostrar la lista de alumnos registrados.
+- **Practica-5:** Aplicación de gestión de instrumentos (guitarras), que permite registrar guitarras y mostrar su información.
+- **Practica-6:** Aplicación de registro de usuarios, con validación de contraseña y fecha de nacimiento, guardando los datos en un archivo.
+- **Practica-7:** Aplicación de seguimiento de asistencia de estudiantes, que lee nombres de un archivo, permite marcar la asistencia y muestra los registros.
+- **Practica-8:** Aplicación de gestión de entregas, que permite rastrear el estado de las entregas y asignar repartidores, guardando los datos en un archivo.
+- **Practica-9:** Aplicación de registro y login de usuarios, con validaciones de campos y almacenamiento de datos en un archivo.
+- **Practica-10:** Aplicación de preparación de bebidas (té o café), que permite seleccionar una bebida y especificar una temperatura de calentamiento, demostrando polimorfismo.
 
 ## Requisitos para Ejecutar el Proyecto
 
